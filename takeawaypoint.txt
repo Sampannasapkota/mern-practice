@@ -1,0 +1,26 @@
+frontend, backend, database
+
+frontend req backend
+
+backend perform task based on
+
+c => create -- post
+r => read == get
+u => update == patch/put
+d => delete => delete
+
+
+How to request?
+url
+method
+
+Work of backend is to make api
+
+localhost:8000, post => hello i witt add database
+localhost:8000, get => i will give u data
+localhost:8000, patch => i ll update your data
+localhost:8000, delete => i will delete your data
+
+
+route
+use that route to index
