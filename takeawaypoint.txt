@@ -24,3 +24,25 @@ localhost:8000, delete => i will delete your data
 
 route
 use that route to index
+
+
+/abc...
+
+res.json
+send data from 
+
+
+
+middleware
+
+    it is a function which has req, res and next
+    next is used to call next middleware
+
+
+
+    url= localhost:8000/channel/a/b?name=sampanna&age=21&developer=true
+    url= route?query
+
+    route= baseUrl/param1/param2/param3 or localhost:8000/channel/a/b
+
+    query= name=sampanna&age=21&developer=true
