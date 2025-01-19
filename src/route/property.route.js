@@ -7,6 +7,7 @@ propertyRouter
   .post((req, res, next) => {
     console.log(req.body)
     console.log(req.query)
+    
     res.json("Property created successfully");
     
   })
@@ -21,6 +22,7 @@ propertyRouter
   })
   .patch((req, res, next) => {
     res.json("Any property updated successfully");
+    console.log(req.params)
   })
 
   .delete((req, res, next) => {
