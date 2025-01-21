@@ -10,6 +10,7 @@ import propertyRouter from "./src/route/property.route.js";
 import teacherRouter from "./src/route/teacher.route.js";
 import studentRouter from "./src/route/student.route.js";
 import middleRouter from "./src/route/middleware.js";
+import employeeRouter from "./src/route/employee.route.js";
 let app = express();
 
 app.use(json()); // always place at top
@@ -23,6 +24,7 @@ app.use("/product", productRouter);
 app.use("/", homeRouter);
 app.use("/contact", contactRouter);
 app.use("/job", jobRouter);
+app.use("/employee", employeeRouter)
 app.use("/property", propertyRouter);
 app.use("/teacher", teacherRouter);
 app.use("/student", studentRouter);
