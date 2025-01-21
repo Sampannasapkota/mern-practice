@@ -24,7 +24,7 @@ app.use("/product", productRouter);
 app.use("/", homeRouter);
 app.use("/contact", contactRouter);
 app.use("/job", jobRouter);
-app.use("/employee", employeeRouter)
+app.use("/employee", employeeRouter);
 app.use("/property", propertyRouter);
 app.use("/teacher", teacherRouter);
 app.use("/student", studentRouter);
